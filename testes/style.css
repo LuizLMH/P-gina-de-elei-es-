@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.paragrafo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    margin-bottom: -5%;
+    padding: 0;
+    height: 0;
+}
+
+.conteiner {
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px gray;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.conteiner label {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+}
+
+.conteiner input {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-left: 10p;
+    /*rever*/
+    display: inline-flexbox;
+    width: 15px;
+    height: auto;
+    outline: none;
+}
+
+.alinhar1 input[type="button"] {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;  
+    width: 80px;
+    justify-content: right;
+}
+
+.alinhar2 input[type="button"] {
+    margin-left: 10px;
+    width: 80px;
+    justify-content: right;
+}
+
+/* #btn{
+    display: inline-flex;
+    flex-direction: row;
+    width: 30%;
+    font-size: 10px;
+} */
