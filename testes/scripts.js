@@ -16,14 +16,14 @@ const presidente = document.querySelectorAll('.presidente-group');
 // 1
 // ['Kylom', 'Felipe',  'Luiz']
 
-
+//o for é executado sempre que eu digito um valor, mas ele precisa ser executado conforme o deputadoF[index - 1].focus(); é executado
 deputadoF.forEach((el, index) => {
     el.addEventListener('input', () => {
         for (let i = 0; i < 4; i++) {
             if (el.value.length && length < 4) {
                 // para direita        
                 deputadoF[index + 1].focus();
-                console.log("posição"+i);
+                console.log("posição" + i);
             }
         }
         if (!el.value.length) {
