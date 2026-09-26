@@ -33,7 +33,6 @@ input::-webkit-inner-spin-button {
     align-items: center;
     box-shadow: 0 0 15px gray;
     border-radius: 20px;
-    border: 2px solid green;
 }
 
 .alinhar {
@@ -41,10 +40,9 @@ input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10%;
-    margin-top: -12%;
+    margin-left: 60%;
+    margin-top: -10%;
     width: 35%;
-    border: 2px solid yellow;
 }
 
 .alinhar input[type="button"] {
@@ -60,7 +58,8 @@ input::-webkit-inner-spin-button {
     border: 2px solid transparent;
     transition: all .2s ease;
 }
-.alinhar input[type="button"]:hover{
+
+.alinhar input[type="button"]:hover {
     border: 2px solid gray;
     box-shadow: 0 0 15px grey;
 }
@@ -84,10 +83,62 @@ input::-webkit-inner-spin-button {
     border: 2px solid blue;
 }
 
+.centroB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
 
-/* #btn{
-    display: inline-flex;
-    flex-direction: row;
+#CT {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    outline: none;
+}
+
+#CT:hover {
+    background-color: green;
+    color: white;
+}
+
+/*Página de candidatos*/
+
+.conter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.candidato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 15px gray;
     width: 30%;
-    font-size: 10px;
-} */
+    height: 500px;
+}
+
+.candidato img {
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+}
+#nome{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+#numero,
+#partido {
+    font-size: 20px;
+    color: black;
+}

@@ -15,71 +15,65 @@
                 <p>Crie aqui sua colinha</p>
             </div>
             <form action="#" method="post">
+                <!-- Deputado Federal -->
+                
                 <label for="deputadoF">Deputado Federal:</label>
-                <input type="number" name="deputadoF" id="deputadoF" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoF" id="deputadoF" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoF" id="deputadoF" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoF" id="deputadoF" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="deputadoF-group" type="text" name="deputadoF" id="deputadoF" maxlength="1" required>
+                <input class="deputadoF-group" type="text" name="deputadoF" id="deputadoF" maxlength="1" required>
+                <input class="deputadoF-group" type="text" name="deputadoF" id="deputadoF" maxlength="1" required>
+                <input class="deputadoF-group" type="text" name="deputadoF" id="deputadoF" maxlength="1" required>
+                
                 <div class="alinhar">
                     <input type="button" value="Confirma" id="btn">
                 </div>
+
+                <!-- / Deputado Federal -->
+
                 <label for="deputadoE">Deputado Estadual:</label>
-                <input type="number" name="deputadoE" id="deputadoE" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoE" id="deputadoE" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoE" id="deputadoE" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoE" id="deputadoE" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="deputadoE" id="deputadoE" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="deputadoE-group" type="text" name="deputadoE" id="deputadoE" maxlength="1" required>
+                <input class="deputadoE-group" type="text" name="deputadoE" id="deputadoE" maxlength="1" required>
+                <input class="deputadoE-group" type="text" name="deputadoE" id="deputadoE" maxlength="1" required>
+                <input class="deputadoE-group" type="text" name="deputadoE" id="deputadoE" maxlength="1" required>
+                <input class="deputadoE-group" type="text" name="deputadoE" id="deputadoE" maxlength="1" required>
                 <div class="alinhar">
                     <input type="button" value="Confirma" id="btn">
                 </div>
+
+
                 <label for="senador1">Senador - 1° vaga:</label>
-                <input type="number" name="senador1" id="senador1" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="senador1" id="senador1" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="senador1" id="senador1" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="senador1-group" type="text" name="senador1" id="senador1" maxlength="1" required>
+                <input class="senador1-group" type="text" name="senador1" id="senador1" maxlength="1" required>
+                <input class="senador1-group" type="text" name="senador1" id="senador1" maxlength="1" required>
                 <div class="alinhar">
                     <input type="button" value="Confirma" id="btn">
                 </div>
                 <label for="senador2">Senador - 2° vaga:</label>
-                <input type="number" name="senador2" id="senador2" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="senador2" id="senador2" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="senador2" id="senador2" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="senador2-group" type="text" name="senador2" id="senador2" maxlength="1" required>
+                <input class="senador2-group" type="text" name="senador2" id="senador2" maxlength="1" required>
+                <input class="senador2-group" type="text" name="senador2" id="senador2" maxlength="1" required>
                 <div class="alinhar">
-                    <input type="button" value="Confirma" id="btn">
+                    <input type="button" value="Confirma" id="btn" onclick="alert('Confirmado!');">
                 </div>
                 <label for="governador">Governador:</label>
-                <input type="number" name="governador" id="governador" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="governador" id="governador" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="governador-group" type="text" name="governador" id="governador" maxlength="1" required>
+                <input class="governador-group" type="text" name="governador" id="governador" maxlength="1" required>
                 <div class="alinhar">
                     <input type="button" value="Confirma" id="btn">
                 </div>
                 <label for="presidente">Presidente:</label>
-                <input type="number" name="presidente" id="presidente" min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
-                <input type="number" name="presidente" id="presidente " min="0" max="9"
-                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 1);" required>
+                <input class="presidente-group" type="text" name="presidente" id="presidente" maxlength="1" required>
+                <input  class="presidente-group"type="text" name="presidente" id="presidente " maxlength="1" required>
                 <div class="alinhar">
                     <input type="button" value="Confirma" id="btn">
+                </div>
+                <div class="centroB">
+                    <input type="button" value="Confirmar todos" id="CT" onclick="window.location.href='candidato.html';">
                 </div>
             </form>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
