@@ -17,14 +17,15 @@ const presidente = document.querySelectorAll('.presidente-group');
 // ['Kylom', 'Felipe',  'Luiz']
 
 
-let i = 0;
 deputadoF.forEach((el, index) => {
     el.addEventListener('input', () => {
-        if (el.value.length && length <4) {
-            // para direita        
-            deputadoF[index + 1].focus();
+        for (let i = 0; i < 4; i++) {
+            if (el.value.length && length < 4) {
+                // para direita        
+                deputadoF[index + 1].focus();
+                console.log("posição"+i);
+            }
         }
-
         if (!el.value.length) {
             // para esquerda        
             deputadoF[index - 1].focus();
