@@ -21,56 +21,69 @@ input::-webkit-inner-spin-button {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: normal;
-    margin-bottom: -5%;
-    padding: 0;
-    height: 0;
+    align-items: center;
+    margin-bottom: 10%;
 }
 
-.conteiner {
+.container {
     width: 20%;
     height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     box-shadow: 0 0 15px gray;
     border-radius: 20px;
-    justify-content: space-between;
+    border: 2px solid green;
 }
 
-.conteiner label {
+.alinhar {
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: -12%;
+    width: 35%;
+    border: 2px solid yellow;
+}
+
+.alinhar input[type="button"] {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-weight: 699;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all .2s ease;
+}
+.alinhar input[type="button"]:hover{
+    border: 2px solid gray;
+    box-shadow: 0 0 15px grey;
+}
+
+.container label {
     display: flex;
     font-size: 25px;
     text-align: center;
 }
 
-.conteiner input {
+.container input {
     flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
     align-items: center;
-    margin-left: 10p;
     /*rever*/
     display: inline-flexbox;
-    width: 15px;
+    width: 6%;
     height: auto;
     outline: none;
+    border: 2px solid blue;
 }
 
-.alinhar1 input[type="button"] {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;  
-    width: 80px;
-    justify-content: right;
-}
-
-.alinhar2 input[type="button"] {
-    margin-left: 10px;
-    width: 81px;
-    justify-content: right;
-}
 
 /* #btn{
     display: inline-flex;
