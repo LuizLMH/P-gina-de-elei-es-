@@ -17,7 +17,7 @@
             <p id="partido">Partido:</p>
         </div>
 
-         <div class="candidato">
+        <div class="candidato">
             <img src="" alt="Deputado Estadual">
             <p id="nome">Para Deputado Estadual <br><br>Nome do Candidato:</p>
             <p id="numero">Número do Candidato:</p>
