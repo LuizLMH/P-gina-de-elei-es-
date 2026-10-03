@@ -14,7 +14,7 @@
             <div class="paragrafo">
                 <p>Crie aqui sua colinha</p>
             </div>
-            <form action="#" method="post">
+            <form action="candidato.php" method="post">
                 <!-- Deputado Federal -->
                 
                 <label for="deputadoF">Deputado Federal:</label>
@@ -67,7 +67,7 @@
                     <input type="button" value="Confirma" id="btn">
                 </div>
                 <div class="centroB">
-                    <input type="button" value="Confirmar todos" id="CT" onclick="window.location.href='candidato.html';">
+                    <input type="button" value="Confirmar todos" id="CT" onclick="window.location.href='candidato.php';">
                 </div>
             </form>
         </div>

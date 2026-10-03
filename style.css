@@ -70,29 +70,36 @@ input::-webkit-inner-spin-button {
     text-align: center;
 }
 
-.container input {
+.container input[type="text"] {
     flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
     align-items: center;
     /*rever*/
     display: inline-flexbox;
-    width: 6%;
+    width: 5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
     height: auto;
     outline: none;
     border: 2px solid blue;
 }
-
+.container input[type="button"]{
+    display: flex;
+    margin-top: 5%;
+}
 .centroB {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 #CT {
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
     height: 35px;
     border: 2px solid gray;
     border-radius: 20px;

@@ -22,7 +22,7 @@ deputadoF.forEach((el, index) => {
         if (el.value.length && deputadoF[index + 1]) {
             // para direita        
             deputadoF[index + 1].focus();
-        }git 
+        }
         if (!el.value.length && deputadoF[index - 1]) {
             // para esquerda        
             deputadoF[index - 1].focus();
