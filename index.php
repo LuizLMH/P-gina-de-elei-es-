@@ -13,6 +13,7 @@
         <div class="container">
             <div class="paragrafo">
                 <p>Crie aqui sua colinha</p>
+                <a href="cadastrarCandidato.php">Cadastrar Candidato</a>
             </div>
             <form action="candidato.php" method="post">
                 <!-- Deputado Federal -->
